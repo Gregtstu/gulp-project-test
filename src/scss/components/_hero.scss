@@ -1,7 +1,7 @@
 .hero{
   .container-fluid{
     width: 100%;
-    padding: 70px 50px;
+    padding: 200px 50px 280px 50px;
     max-height: 700px;
     position: relative;
     background-image: url(../../img/hero.png);
@@ -31,7 +31,7 @@
         margin: 0;
         font-weight: 600;
         font-size: 20px;
-        line-height: 40px;
+        line-height: 70px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -44,12 +44,10 @@
           text-transform: uppercase;
         }
       }
-
       .btn{
-        padding: 0 37px;
-        height: 35px;
+        margin-top: auto;
+        padding: 13px 37px;
         background-color: var(--btn-bg-color);
-        border: none;
         outline: none;
         border-radius: 10px;
         font-weight: 700;
@@ -58,31 +56,33 @@
         color: #FFFFFF;
         cursor: pointer;
       }
+
     }
-  }
+    @media (max-width:920px) {
+      .container-fluid{
+        padding: 100px 50px 100px 50px !important;
+        height: 400px !important;
 
+        .content__title{
+          margin:0;
+          font-size: 26px !important;
+        }
 
-@media (max-width:920px) {
-  .container-fluid{
-    // padding-bottom: 30px !important;
-
-    .content__title{
-      margin:0;
-      font-size: 26px !important;
-    }
-
-    .content__sub-title{
+        .content__sub-title{
           font-size: 16px!important;
-    }
+        }
 
-    .content__price{
-     font-size: 16px;
-    }
+        .content__price{
+         font-size: 16px;
+        }
 
-    .content__price-bold{
-      font-weight: 900;
-      font-size: 19px;
+        .content__price-bold{
+          font-weight: 900;
+          font-size: 19px;
+        }
+      }
+
     }
   }
 
-}
+

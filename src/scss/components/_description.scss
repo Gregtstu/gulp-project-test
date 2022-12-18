@@ -1,0 +1,25 @@
+.description{
+  padding: 90px 0 105px 0px;
+
+  &__list{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .description__item{
+      max-width: 240px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+      color: var(--text-color);
+    }
+  }
+}

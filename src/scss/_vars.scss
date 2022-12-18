@@ -1,0 +1,19 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Roboto", sans-serif;
+  --content-width:1200px;
+  --content-fluid-width: 1940px;
+  --container-offset: 10px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(var(--content-fluid-width) + (var(--container-offset) * 2));
+
+  // colors
+  --main-bg-fon-color: #F5F5F5;
+  --footer-bg-fon-color: #4B4B4B;
+  --btn-bg-color: #6CB71D;
+  --text-color: #333333;
+  --colory-color: #777777;
+  --line-color:#BDBEC0
+}

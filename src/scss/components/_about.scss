@@ -1,0 +1,41 @@
+.about{
+  padding: 137px 0 92px 0;
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .image{
+      border-radius: 14px;
+    }
+
+    .wrapper__text{
+      max-width: 558px;
+
+      .wrapper__text-title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: var(--text-color);
+      }
+
+      .wrapper__text-description{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: var(--text-color);
+      }
+    }
+
+  }
+}
+
+@media (max-width:1170px) {
+  .wrapper{
+      flex-direction: column;
+  }
+}
